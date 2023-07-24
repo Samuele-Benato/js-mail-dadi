@@ -8,5 +8,5 @@
 ## Svolgimento
 
 - Dichiaro due costanti con **min** e **max**
-- Dichiaro un altra costante e 'random'
+- Dichiaro una variabile per il numero dell'user 'random1' e una per il numero del computer 'random2'
   - Applico la formula Math.floor(Math.random()\*max) + min;

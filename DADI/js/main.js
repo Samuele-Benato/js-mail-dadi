@@ -18,7 +18,7 @@ console.log(random2);
 if (userNumber < computerNumber) {
   alert("complimenti USER hai vinto!");
 } else if (userNumber == computerNumber) {
-  alert("ACCIDENTI parità");
+  alert("ACCIDENTI parità!");
 } else {
   alert("AHAH ti sei fatto battere da un computer!");
 }
