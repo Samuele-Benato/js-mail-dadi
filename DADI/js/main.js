@@ -27,10 +27,10 @@ myButton.addEventListener("click", function () {
   let messageUser = document.getElementById("message");
 
   if (userNumber < computerNumber) {
-    messageUser.innerHTML = "Che fortuna! HAI VINTO.";
+    messageUser.innerHTML = "Che peccato! HAI PERSO";
   } else if (userNumber == computerNumber) {
     messageUser.innerHTML = "ACCIDENTI! parità.";
   } else {
-    messageUser.innerHTML = "Che peccato! HAI PERSO";
+    messageUser.innerHTML = "Che fortuna! HAI VINTO.";
   }
 });
