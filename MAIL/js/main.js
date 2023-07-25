@@ -27,12 +27,14 @@ const mails = [
 // definisco l'user mail
 let userMail = prompt(
   "Provaci! Inserisci la mail del personaggio più iconico di DragonBall Z  (Lettera maiuscola iniziale di ogni parola + '@gmail.com')"
-);
+).trim();
 
 // // definisco il value dell'userMail
 // let userMailValue = document.getElementById("user_mail").value;
 
+// setto variabile d'appoggio
 let correct = false;
+
 // definire ogni mail possibile
 for (let i = 0; i < mails.length; i++) {
   const mail = mails[i];
